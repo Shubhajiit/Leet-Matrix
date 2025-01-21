@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Changed font style */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #648e70; /* Changed background color to gray */
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #c4edc6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.user-container {
+    margin-bottom: 20px;
+    /* border: 2px solid #000; Added deep black border */
+    padding: 10px;
+}
+
+.user-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#user-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #022f00;
+    color: #fff;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #3c473c;
+}
+
+.stats-container {
+    margin-top: 20px;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.progress-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold; /* Made text bold */
+    color: #4fff0f; /* Changed text color to bright */
+    
+}
+
+.progress-item div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: conic-gradient(#28a745 var(--progress-degree 40%), #122e12 0%);  */
+    margin-bottom: 10px;
+    border: 3px solid #41b741; /* Deep green border */
+}
+
+#easy-label, #medium-label, #hard-label {
+    font-size: 1.2em;
+    color: #fff; /* Changed text color to bright */
+}
+
+/* .easy-progress {
+    background: conic-gradient(#28a745 0% 40%, #e0e0e0 0%); 
+}
+
+.medium-progress {
+    background: conic-gradient(#ffc107 0% 40%, #e0e0e0 40%); 
+}
+
+.hard-progress {
+    background: conic-gradient(#dc3545 0% 40%, #e0e0e0 40%); 
+} */
+#circle{
+    background: conic-gradient(#28a745 var(--progress-degree ,0%), #122e12 0%);
+}
+
+.stats-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    box-sizing: border-box;
+}
