@@ -18,4 +18,4 @@ This project leverages modern web technologies and APIs to seamlessly fetch and 
 Get Started:
 Clone the repository and follow the instructions in the README to set up LeetMatrix on your system. All you need is a valid LeetCode username to unlock the full potential of this tool.
 
-Start your journey to better coding insights with LeetMatrix!..
+Start your journey to better coding insights with LeetMatrix!....
