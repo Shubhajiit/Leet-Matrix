@@ -1,4 +1,3 @@
-
 LeetMatrix is a versatile analytics tool designed to provide a detailed overview of your LeetCode performance, helping you track progress and improve your problem-solving skills.
 
 Whether you are a coding enthusiast preparing for technical interviews or a developer sharpening your skills, LeetMatrix ensures that you stay informed and motivated by presenting a clear picture of your coding journey.
